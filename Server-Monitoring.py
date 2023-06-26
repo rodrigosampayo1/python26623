@@ -1,3 +1,7 @@
+# Use case:
+# Periodically collects system metrics such as CPU usage, memory utilization, disk space, and network statistics. 
+# You can use libraries like psutil to gather this information and log it for later analysis or trigger alerts based on predefined thresholds.
+
 import psutil
 
 def monitor_server():
